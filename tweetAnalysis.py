@@ -6,10 +6,10 @@ class TweetAnalysis:
 
     def runInfo(self):
         # Verification requirements
-        APIKey = input('ZcPvz3uLtBVQ5uf29caYcY5vg: ')
-        APISecret = input('9tabPBD05Kqlwg8h5DJks6OJGgHCX8OJUaYa2ptqTdRypVrZW2')
-        accessToken = input('1244176258025451520-qCkwplREQFKUMh1qMuh1kaAwDnGmPF')
-        accessTokenSecret = input('vnnGnFdftALfGP4JliFekqARUg4v1c9XpJgrmm8fp7AzB')
+        APIKey = input('Your API key here: ')
+        APISecret = input('Your API Secret here: ')
+        accessToken = input('Your access token here: ')
+        accessTokenSecret = input('Your access token secret here: ')
         # OAuthHandler authentication
         auth = tweepy.OAuthHandler(APIKey, APISecret)
         auth.set_access_token(accessToken, accessTokenSecret)
